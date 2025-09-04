@@ -1,0 +1,5 @@
+gymnasium
+stable-baselines3[extra]
+flappy-bird-gymnasium
+tensorflow
+torch-stubs

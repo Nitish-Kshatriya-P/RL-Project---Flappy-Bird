@@ -1,0 +1,23 @@
+cartpole-v1:
+  env: CartPole-v1
+  set_rp_memory: 100000
+  sample_size: 32
+  epsilon: 1
+  epsilon_decay: 0.99_99_5
+  epsilon_min: 0.05
+  update_target_dqn: 10
+  learning_rate: 0.0001
+  discount_factor: 0.99
+  set_rewards: 10000
+
+FlappyBird-v0:
+  env: FlappyBird-v0
+  set_rp_memory: 100000
+  sample_size: 32
+  epsilon: 1
+  epsilon_decay: 0.995
+  epsilon_min: 0.05
+  update_target_dqn: 1000
+  learning_rate: 0.00025
+  discount_factor: 0.99
+  set_rewards: 100
